@@ -1,0 +1,36 @@
+
+
+    <html>
+    <head>
+    <title>
+    Login page
+    </title>
+    </head>
+    <body>
+<p>Did you decode the message?</p>
+
+<p>Enter everything in lower case.</p>
+
+    <form name="login">
+<input type="text" name="userid"/> at <input type="password" name="pswrd"/> State Park <br>
+    <input type="button" onclick="check(this.form)" value="Login"/>
+    <input type="reset" value="Cancel"/>
+    </form>
+    <script language="javascript">
+    function check(form)/*function to check userid & password*/
+    {
+    /*the following code checkes whether the entered userid and password are matching*/
+    if(form.userid.value == "midnight" && form.pswrd.value == "patapsco")
+    {
+    window.open('dat2.html')/*opens the target page while Id & password matches*/
+    }
+    else
+    {
+    alert("You have entered the wrong information.")/*displays error message*/
+    }
+    }
+    </script>
+    </body>
+    </html>
+
+

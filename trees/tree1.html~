@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>The Sign on the Tree</title>
+<meta name="keywords"
+ content="R, riddles, mystery" />
+ <meta name="description" content="Where did that painting go?"/>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+<p>Go to the next tree.</p>
+<center>
+<a href="trees/tree2.html">
+<img src="tree_sign.png" alt="The Sign on the Tree" alt="The Sign on the Tree" width="400">
+</a>
+</center>
+
+</body>
+</html>
+
+
